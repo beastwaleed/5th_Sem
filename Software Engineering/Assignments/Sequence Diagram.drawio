@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="3184" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7baba1c4bc27f4b0-8" value="Eventoria System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="60" width="120" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
+          <mxGeometry x="55" y="70" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-945" y="580" as="targetPoint" />
+            <mxPoint x="-945" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-945" y="260" />
+              <mxPoint x="-945" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-950" y="150" as="sourcePoint" />
+            <mxPoint x="-230.5" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-57" value="submitBookingRequest(venueID, date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-56">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-58" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="200" width="770" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-59" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-944" y="250" as="sourcePoint" />
+            <mxPoint x="-240" y="253" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-60" value="displayBookingForm(venueDetails, date)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-59">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-62" value="[venue is available]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-910" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-944" y="288.5" as="sourcePoint" />
+            <mxPoint x="-240" y="289" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-66" value="enterBookingDetails(guestCount, request, contactInfo)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-65">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-68" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-939" y="330" as="sourcePoint" />
+            <mxPoint x="-235" y="333" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-69" value="displayPaymetPage(totalAmount)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-68">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-940" y="368" as="sourcePoint" />
+            <mxPoint x="-236" y="368.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-71" value="makePayment(paymentMethod, paymentDetails)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-70">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-72" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-937" y="400" as="sourcePoint" />
+            <mxPoint x="-233" y="403" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-73" value="displayConfirmation(bookingId, bookingSummary)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-72">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-74" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-940" y="440" as="sourcePoint" />
+            <mxPoint x="-236" y="443" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-76" value="[venue is not available]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-940" y="440" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-77" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-940" y="490" as="sourcePoint" />
+            <mxPoint x="-236" y="493" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBSDTAgXje_Lm6sdsu0Q-78" value="displayErrorMessage(&quot;Venue Is not available for the selected date&quot;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uBSDTAgXje_Lm6sdsu0Q-77">
+          <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

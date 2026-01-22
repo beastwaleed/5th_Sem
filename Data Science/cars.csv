@@ -1,0 +1,21 @@
+ID,Car_Name,Year,Kilometers_Driven,Fuel_Type,Transmission,Owner_Type,Engine_CC,Power_bhp,Selling_Price
+1,Maruti Swift Dzire,2014,27000 km,Diesel,Manual,First,1248 cc,74,450000
+2,Skoda Rapid 1.5,2014,50000,Diesel,Manual,Second,1498,103.52,3.70 Lakhs
+3,honda city 2017,2017,40000 km,Petrol,Manual,First,1497 cc,117.3,600000
+4,Hyundai i20 Sportz,2010,,Petrol,Manual,First,1197 cc,80,225000
+5,Maruti Swift,2018,25k,Diesel,Manual,First,1248 cc,,5.50 Lakhs
+6,Hyundai Xcent,2015,35000 km,Petrol,Manual,First,1197 cc,81.86,300000
+7,Tata Indigo CR4,201,100000 km,Diesel,Manual,Second,1396 cc,70,1.50 Lakhs
+8,Toyota Innova Crysta,2016,60000 km,Diesel,Automatic,First,2755 cc,171.5,1750000
+9,volkswagen vento,2013,55000,,Manual,First,,103.6,350000
+10,Tata Tiago,2025,15000 km,Petrol,Manual,First,1199 cc,83.83,450000
+11,Maruti Swift Dzire,2014,27000 km,Diesel,Manual,First,1248 cc,74,450000
+12,Honda Amaze,2015,40000 km,Petrol,Automatic,Second,1198 cc,86.7,320000
+13,Mahindra XUV500,2016,70000,Diesel,Manual,First,2179 cc,140,8.50 Lakhs
+14,Ford EcoSport,2014,65000 km,Diesel,Manual,Third,1498 cc,98.6,400000
+15,Hyundai Creta,2018,30000 km,Petrol,Automatic,First,1591 cc,121.3,1050000
+16,Renault Kwid,2017,20000 km,Petrol,Manual,First,799 cc,53.3,250000
+17,BMW 3 Series,2012,80000 km,Diesel,Automatic,Second,1995 cc,181,1100000
+18,Audi A4 New,2019,8000 km,Diesel,Automatic,First,1968 cc,,3500000
+19,mercedes-benz c-class,2015,45000 km,Diesel,Automatic,First,2143 cc,170,18.00 Lakhs
+20,Maruti Suzuki Alto,2011,50000 km,CNG,Manual,Second,796 cc,47.3,120000
